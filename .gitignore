@@ -1,0 +1,36 @@
+# Ignore Python virtual environment
+venv/
+*.pyc
+__pycache__/
+
+# Ignore data models
+models/*.pkl
+
+# Ignore config and sensitive files
+config.json
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+
+# Ignore node modules
+node_modules/
+
+# Ignore build files
+build/
+dist/
+*.egg-info/
+
+# Ignore environment files
+.env
+
+# Ignore logs
+*.log
+
+# Ignore package manager files
+package-lock.json
+
+# Ignore temporary files
+.DS_Store
+Thumbs.db
+*.swp
